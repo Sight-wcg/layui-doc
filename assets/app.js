@@ -77,7 +77,7 @@ function codeBlockPlugin(hook, vm) {
 function editPlugin(hook, vm) {
   hook.afterEach(function (html) {
     var edit = `
-        <div style="position:absolute;right:20px;top:20px">
+        <div style="position:absolute;right:30px;top:20px">
           <a href="${vm.route.file}" target="_blank title="在 Github 上编辑">
             <i class="layui-icon layui-icon-edit"></i>
           </a>
