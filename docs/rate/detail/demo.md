@@ -1,6 +1,7 @@
 <pre class="layui-code" lay-options="{preview: true, text: {preview: '基础用法'}, layout: ['preview', 'code'], tools: ['full']}">
   <textarea>
 <div id="ID-rate-demo"></div>
+
 <script>
 layui.use(function(){
   var rate = layui.rate;

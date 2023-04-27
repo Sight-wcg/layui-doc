@@ -42,10 +42,12 @@ function remoteMDPlugin(hook, vm) {
       var cdncssRE = /\{\{=\s+d.layui.cdn.css\s*\}\}/g;
       var cdnjsRE = /\{\{=\s+d.layui.cdn.js\s*\}\}/g;
       var rootRE = /\{\{\s*d.root\s*\}\}/g;
+      var tocRE = /^-{3}\n+title:\s*(.)+\n+toc:\s*(true|false)\n+-{3}\n?/;
       content = load(content)
         .replace(cdncssRE, '//unpkg.com/layui@2.8.0/dist/css/layui.css')
         .replace(cdnjsRE, '//unpkg.com/layui@2.8.0/layui.js')
-        .replace(rootRE, '.');
+        .replace(rootRE, '.')
+        .replace(tocRE, '');
       next(`\n ${content} \n`);
     });
   });

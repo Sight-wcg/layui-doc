@@ -2,6 +2,7 @@
   <textarea>
 <div id="demo-laypage-normal-1"></div>
 <div id="demo-laypage-normal-2"></div>
+
 <script>
 layui.use(function(){
   var laypage = layui.laypage;

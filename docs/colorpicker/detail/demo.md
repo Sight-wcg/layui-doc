@@ -2,6 +2,7 @@
   <textarea>
 <div id="ID-colorpicker-demo-1"></div>
 <div id="ID-colorpicker-demo-2" style="margin-left: 16px;"></div>
+
 <script>
 layui.use(function(){
   var colorpicker = layui.colorpicker;

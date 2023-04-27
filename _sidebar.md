@@ -26,7 +26,7 @@
   * [选项卡](docs/tab/index)
   * [徽章](docs/badge/index)
   * [辅助](docs/auxiliar/index)
-  * [公共类]
+  * [公共类](docs/class/index)
   * [面板](docs/panel/index)
   * [进度条](docs/progress/index)
   * [时间线](docs/timeline/index)

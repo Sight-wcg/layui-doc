@@ -1,6 +1,7 @@
 <pre class="layui-code" lay-options="{preview: true, text: {preview: '基础效果'}, layout: ['preview', 'code'], tools: ['full']}">
   <textarea>
 <div id="ID-transfer-demo"></div>
+
 <script>
 layui.use(function(){
   var transfer = layui.transfer;

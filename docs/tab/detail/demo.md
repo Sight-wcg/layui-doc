@@ -22,6 +22,7 @@
   <button class="layui-btn" lay-on="tabDelete">删除「标签4」</button>
   <button class="layui-btn" lay-on="tabChange">切换到「标签3」</button>
 </div>
+
 <script>
 layui.use(function(){
   var element = layui.element;
